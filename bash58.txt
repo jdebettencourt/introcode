@@ -1,0 +1,59 @@
+    1  ps
+    2  ps -all
+    3  kill 30807
+    4  ps -all
+    5  kill 30808
+    6  kill 30809
+    7  ps -all
+    8  kill 30810
+    9  history
+   10  history > bash2.txt
+   11  gcc -h
+   12  gcc help
+   13  gcc -help
+   14  gcc /help
+   15  gcc info
+   16  gcc --version
+   17  dpkg --list | grep compiler
+   18  $ apt-cache search Compiler
+   19  apt-cache search Compiler
+   20  apt-cache search compiler
+   21  apt-cache search Compiler > compilers.txt
+   22  cd introcode
+   23  gcc -save-temps -o cpu cpu.c -Wall -Werror
+   24  apt-cache search Header
+   25  history
+   26  history > bash2.txt
+   27  ./cpu
+   28  ./mem 16
+   29  ./mem
+   30  ./mem 16
+   31  ./mem 0
+   32  sudo bash -c 'echo 0 > /proc/sys/kernel/randomize_va_space'
+   33  gcc mem.c -save-temps -o mem_disable_all -fno-stack-protector -z execstack -no-pie
+   34  gcc mem.c -save-temps -o mem_disable_all -fno-stack-protector -z execstack
+   35  ./mem_* 1
+   36  ps
+   37  ps -all
+   38  ./mem_* 0
+   39  gcc mem.c -save-temps -o mem_disable_all -fno-stack-protector -z execstack -fno-pie
+   40  gcc mem.c -save-temps -o mem_disable_all -fno-stack-protector -z execstack -fno-pie -Wall -Werror
+   41  ./mem_disable_all 0
+   42  gcc mem.c -save-temps -o mem_disable_all -fno-stack-protector -z execstack -fno-pie -m32 -Wall -Werror
+   43  gcc mem.c -save-temps -o mem_disable_all -fno-stack-protector -z execstack -fno-pie -Wall -Werror
+   44  gcc -o io_run -save-temps io.c -Wall -Werror
+   45  ./io.c
+   46  ./io_run
+   47  sudo dtrace -s trace-io.d
+   48  dtrace
+   49  gcc -o th1 -save-temps threads.v0.c -pthreads -Wall -Werror
+   50  gcc -o th1 -save-temps threads.v0.c -pthread -Wall -Werror
+   51  ./th1 10000
+   52  gcc -o th0 -save-temps threads.v0.c -pthread -Wall -Werror
+   53  ./th0 10000
+   54  gcc -o th1 -save-temps threads.v1.c -pthread -Wall -Werror
+   55  ./th1 10000
+   56  history
+   57  gcc -m32 mem.c -save-temps -o mem_d_all -fno-stack-protector -z execstack -fno-pie -Wall -Werror
+   58  history
+   59  history > bash58.txt

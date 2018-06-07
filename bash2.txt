@@ -1,0 +1,26 @@
+    1  ps
+    2  ps -all
+    3  kill 30807
+    4  ps -all
+    5  kill 30808
+    6  kill 30809
+    7  ps -all
+    8  kill 30810
+    9  history
+   10  history > bash2.txt
+   11  gcc -h
+   12  gcc help
+   13  gcc -help
+   14  gcc /help
+   15  gcc info
+   16  gcc --version
+   17  dpkg --list | grep compiler
+   18  $ apt-cache search Compiler
+   19  apt-cache search Compiler
+   20  apt-cache search compiler
+   21  apt-cache search Compiler > compilers.txt
+   22  cd introcode
+   23  gcc -save-temps -o cpu cpu.c -Wall -Werror
+   24  apt-cache search Header
+   25  history
+   26  history > bash2.txt

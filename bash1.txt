@@ -1,0 +1,19 @@
+    1  pwd
+    2  sudo apt update
+    3  sudo apt upgrade
+    4  cd introcode
+    5  gcc -o cpu -s cpu.c -Wall -Werror
+    6  gcc -S cpu.c -o cpu -Wall -Werror
+    7  ./cpu
+    8  gcc-4.8 -S cpu.c -o cpu -Wall -Werror
+    9  gcc-4.8 -S cpu.c -Wall -Werror
+   10  ./cpu
+   11  cd ../.
+   12  sudo apt install build-essential
+   13  cd introcode
+   14  ./cpu "my best process"
+   15  gcc -s cpu.c -Wall -Werror
+   16  ./a.out "A"
+   17  ./a.out A & ./a.out B & ./a.out C & ./a.out D &
+   18  history
+   19  history > bash1.txt
